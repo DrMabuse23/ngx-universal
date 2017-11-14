@@ -1,0 +1,410 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng-universal-demo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">ng-universal-demo documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">ng-universal-demo documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="./overview.html" 
+                                         href="./overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppServerModule.html" >AppServerModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/LazyModule.html" >LazyModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/MaterialModule.html" >MaterialModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/HomeComponent.html" >HomeComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/LazyComponent.html" >LazyComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">ng-universal-demo documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="./overview.html" 
+                                                href="./overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppServerModule.html" >AppServerModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/LazyModule.html" >LazyModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/MaterialModule.html" >MaterialModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/HomeComponent.html" >HomeComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/LazyComponent.html" >LazyComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src=".//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/1016365/10639063/138338bc-7806-11e5-8057-d34c75f3cafc.png" alt="Universal Angular" height="320"/>
+</p>
+
+<h1 id="angular-universal-starter-universal-angular-https-img-shields-io-badge-universal-angular2-brightgreen-svg-style-flat-https-github-com-angular-universal-">Angular Universal Starter <a href="https://github.com/angular/universal"><img src="https://img.shields.io/badge/universal-angular2-brightgreen.svg?style=flat" alt="Universal Angular" class="img-responsive"</a></h1>
+<blockquote>
+<p>Server-Side Rendering for Angular</p>
+</blockquote>
+<p>A minimal Angular starter for Universal JavaScript using TypeScript and Webpack</p>
+<blockquote>
+<p>If you&#39;re looking for the Angular Universal repo go to <a href="https://github.com/angular/universal"><strong>angular/universal</strong></a>  </p>
+</blockquote>
+<p><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" class="img-responsive"</a></p>
+<h2 id="getting-started">Getting Started</h2>
+<blockquote>
+<p>This demo is built following the <a href="https://github.com/angular/angular-cli/wiki/stories-universal-rendering">Angular-CLI Wiki guide</a></p>
+</blockquote>
+<p>We&#39;re utilizing packages from the <a href="https://github.com/angular/universal">Angular Universal @nguniversal</a> repo, such as <a href="https://github.com/angular/universal/tree/master/modules/module-map-ngfactory-loader">ng-module-map-ngfactory-loader</a> to enable Lazy Loading.</p>
+<hr>
+<h3 id="build-time-prerender-prerender-vs-server-side-rendering-ssr-">Build Time Prerender(prerender) Vs. Server Side Rendering(ssr)</h3>
+<p>This repo demonstrates the use of 2 different forms of Server Side Rendering.</p>
+<p><strong>Prerender(prerender)</strong> </p>
+<ul>
+<li>Happens at build time</li>
+<li>Renders your application and replaces the dist index.html with a version rendered at the route <code>/</code>.</li>
+</ul>
+<p><strong>Server-Side Rendering(ssr)</strong></p>
+<ul>
+<li>Happens at runtime</li>
+<li>Uses <code>ngExpressEngine</code> to render you application on the fly at the requested url.</li>
+</ul>
+<hr>
+<h3 id="installation">Installation</h3>
+<ul>
+<li><code>npm install</code> or <code>yarn</code></li>
+</ul>
+<h3 id="development-client-side-only-rendering-">Development (Client-side only rendering)</h3>
+<ul>
+<li>run <code>npm run start</code> which will start <code>ng serve</code></li>
+</ul>
+<h3 id="production-also-for-testing-ssr-pre-rendering-locally-">Production (also for testing SSR/Pre-rendering locally)</h3>
+<p><strong><code>npm run build:ssr &amp;&amp; npm run serve:ssr</code></strong> - Compiles your application and spins up a Node Express to serve your Universal application on <code>http://localhost:4000</code>.</p>
+<p><strong><code>npm run build:prerender &amp;&amp; npm run serve:prerender</code></strong> - Compiles your application and prerenders your applications files, spinning up a demo http-server so you can view it on <code>http://localhost:8080</code>
+<strong>Note</strong>: To deploy your static site to a static hosting platform you will have to deploy the <code>dist/browser</code> folder, rather than the usual <code>dist</code></p>
+<h2 id="universal-gotchas-">Universal &quot;Gotchas&quot;</h2>
+<blockquote>
+<p>When building Universal components in Angular there are a few things to keep in mind.</p>
+</blockquote>
+<ul>
+<li><p>For the server bundle you may need to include your 3rd party module into <code>nodeExternals</code> whitelist</p>
+</li>
+<li><p><strong><code>window</code></strong>, <strong><code>document</code></strong>, <strong><code>navigator</code></strong>, and other browser types - <em>do not exist on the server</em> - so using them, or any library that uses them (jQuery for example) will not work. You do have some options, if you truly need some of this functionality:</p>
+<ul>
+<li><p>If you need to use them, consider limiting them to only your client and wrapping them situationally. You can use the Object injected using the PLATFORM_ID token to check whether the current platform is browser or server. </p>
+<pre class="line-numbers"><code class="language-typescript">import { PLATFORM_ID } from &#39;&#64;angular/core&#39;;
+import { isPlatformBrowser, isPlatformServer } from &#39;&#64;angular/common&#39;;
+
+constructor(&#64;Inject(PLATFORM_ID) private platformId: Object) { ... }
+
+ngOnInit() {
+ if (isPlatformBrowser(this.platformId)) {
+    // Client only code.
+    ...
+ }
+ if (isPlatformServer(this.platformId)) {
+   // Server only code.
+   ...
+ }
+}</code></pre><ul>
+<li>Try to <em>limit or</em> <strong>avoid</strong> using <strong><code>setTimeout</code></strong>. It will slow down the server-side rendering process. Make sure to remove them <a href="https://angular.io/docs/ts/latest/api/core/index/OnDestroy-class.html"><code>ngOnDestroy</code></a> in Components.</li>
+<li>Also for RxJs timeouts, make sure to <em>cancel</em> their stream on success, for they can slow down rendering as well.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Don&#39;t manipulate the nativeElement directly</strong>. Use the <em>Renderer2</em> from <a href="https://angular.io/api/core/Renderer2">&quot;@angular/core&quot;</a>. We do this to ensure that in any environment we&#39;re able to change our view.<pre class="line-numbers"><code class="language-typescript">constructor(element: ElementRef, renderer: Renderer2) {
+this.renderer.setStyle(element.nativeElement, &#39;font-size&#39;, &#39;x-large&#39;);
+}</code></pre></li>
+<li>The application runs XHR requests on the server &amp; once again on the Client-side (when the application bootstraps)<ul>
+<li>Use a cache that&#39;s transferred from server to client (TODO: Point to the example)</li>
+</ul>
+</li>
+<li>Know the difference between attributes and properties in relation to the DOM.</li>
+<li>Keep your directives stateless as much as possible. For stateful directives, you may need to provide an attribute that reflects the corresponding property with an initial string value such as url in img tag. For our native element the src attribute is reflected as the src property of the element type HTMLImageElement.</li>
+</ul>
+<h1 id="license">License</h1>
+<p><a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License" class="img-responsive"</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+    </body>
+</html>
